@@ -1,0 +1,61 @@
+.header {
+    position: sticky;
+    height: 5vh;
+    width: 100vw;
+    background-color: rgb(186, 0, 0);
+    display: flex;
+}
+
+.header_left {
+    width: 20vw;
+    padding-left: 10vw;
+    padding-top: 7px;
+    flex: 1;
+}
+
+.header_left:hover {
+    text-decoration: underline;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.header_content_one {
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+.header_content_two {
+    color: white;
+    font-size: 12px;
+    
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    padding-right: 150px;
+}
+
+.header_right > p {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.header_right > p:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .header_right {
+    float: none;
+    display: none;
+    text-align: left;
+    }
+}
