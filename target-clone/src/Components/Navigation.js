@@ -17,23 +17,37 @@ const Navigation = () => {
             />
         </div>
         <div className='navigation_left'>
-            <p><b>Categories</b></p>
-            <p><b>Deals</b></p>
-            <p><b>What's New</b></p>
-            <p><b>Pickup & Delivery</b></p>    
+            <div className='nav_border'>
+                <button><b>Categories</b></button>
+            </div>
+            <div className='nav_border'>
+                <button><b>Deals</b></button>
+            </div>
+            <div className='nav_border'>
+                <button><b>What's New</b></button>
+            </div>
+            <div className='nav_border'>
+                <button><b>Pickup & Delivery</b></button>  
+            </div>  
         </div>
         <div className='nav_response'>
             <div className='navigation_input'>
                 <input placeholder='Search' className='input'></input>
-                <BiSearch className='search_icon'/>
+                <div className='search'>
+                    <BiSearch className='search_icon'/>
+                </div>
             </div>
         </div>
         <div className='nav_end'>
-            <CgProfile className='profile_icon'/>
-            <p>Sign in</p>
+            <button>
+                <CgProfile className='profile_icon'/>
+                <p>Sign in</p>
+            </button>
         </div>
         <div className='nav_end_two'>
-            <BiCart className='cart_icon'/>
+            <button>
+                <BiCart className='cart_icon'/>
+            </button>
         </div>
     </div>
   )
