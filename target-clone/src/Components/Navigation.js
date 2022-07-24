@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Assets/Navigation.css'
+import '../Assets/Navigation.css';
 import { BiSearch, BiCart } from 'react-icons/bi';
 import { CgProfile } from 'react-icons/cg';
 
