@@ -1,0 +1,18 @@
+.sponsored {
+
+}
+
+.sponsor_image {
+    width: 70vw;
+    padding-top: 50px;
+    display: flex;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 900px) {
+    .sponsor_image {
+    width: 100vw;
+    height: 9vh;
+    }
+}

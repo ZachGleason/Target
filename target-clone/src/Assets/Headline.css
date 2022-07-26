@@ -1,0 +1,27 @@
+.headline {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.headline > h1 {
+    color: rgb(42, 42, 42);
+}
+
+.headline > p {
+    color: rgb(42, 42, 42);
+}
+
+.headline_content:hover {
+    text-decoration: underline;
+}
+
+.headline_text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.slash {
+    padding-left: 5px;
+    padding-right: 5px;
+}

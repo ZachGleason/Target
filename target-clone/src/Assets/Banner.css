@@ -1,0 +1,200 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 70vw;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.banner_one {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.banner_two {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.icon_one {
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    min-width: 9vh;
+}
+
+.icon_two {
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    min-width: 9vh;
+}
+
+.banner_third {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.banner_four {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.icon_three {
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    min-width: 9vh;
+}
+
+.icon_four {
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    min-width: 9vh;
+}
+
+.icon_five {
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    min-width: 9vh;
+}
+
+.banner_five {
+    padding-top: 20px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.icon_six {
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    min-width: 9vh;
+}
+
+.banner_six {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.icon_seven {
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    min-width: 9vh;
+}
+
+.banner_seven {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.icon_eight {
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    min-width: 9vh;
+}
+
+.banner_eight {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.icon_nine {
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    min-width: 9vh;
+}
+
+.banner_nine {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.icon_ten {
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    min-width: 9vh;
+}
+
+.banner_ten {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.banner_one > p:hover {
+    text-decoration: underline;
+}
+.banner_two > p:hover {
+    text-decoration: underline;
+}
+.banner_third > p:hover {
+    text-decoration: underline;
+}
+.banner_four > p:hover {
+    text-decoration: underline;
+}
+.banner_five > p:hover {
+    text-decoration: underline;
+}
+.banner_six > p:hover {
+    text-decoration: underline;
+}
+.banner_seven > p:hover {
+    text-decoration: underline;
+}
+.banner_eight > p:hover {
+    text-decoration: underline;
+}
+.banner_nine > p:hover {
+    text-decoration: underline;
+}
+.banner_ten > p:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+.jumbotron {
+    width: 70vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+.jumbo_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 70vw;
+    padding-top: 30px;
+
+}
+
+.jumbo_text_one {
+    width: 50vw;
+    top: 40%;
+    text-align: center;
+    margin-top: -100px;
+}
+
+@media screen and (max-width: 900px) {
+    .jumbo_image {
+    width: 100%;
+    }
+}
