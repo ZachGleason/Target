@@ -44,7 +44,7 @@ const Cards = () => {
                 className='card_image_four'
             />
             <div className='card_content_four'>
-                <p className='card_text_seven'>All the top deals in one place</p>
+                <p className='card_text_seven'>All the top deals in one place!</p>
             </div>
         </div>
     </div>
